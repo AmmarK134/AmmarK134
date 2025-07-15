@@ -46,9 +46,8 @@
 
 ## 📫 Connect With Me
 <p>
-  <a href="https://linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a> |
-  <a href="https://twitter.com/your-twitter"   target="_blank">Twitter</a> |
-  <a href="mailto:your.email@example.com">Email</a>
+  <a href="https://www.linkedin.com/in/ammar-khan-84a31217a/" target="_blank">LinkedIn</a> |
+
 </p>
 
 ---
