@@ -1,6 +1,6 @@
 # Hey there, I’m Ammar 👋
 
-![Kanye GIF](https://media.giphy.com/media/3oz8xIsloV7zOmt81G/giphy.gif)
+![Kanye GIF](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHd3NzdlcW5kY2Vrcjg3ZGFoamcyY3o4eGRnZGpnejVpd2RuNGlmMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/14tvbepZ8vhU40/giphy.gif)
 
 [![Profile Views](https://komarev.com/ghpvc/?username=AmmarK134&style=flat-square)](https://komarev.com)
 
@@ -10,7 +10,7 @@
 - 🔭 I’m a **Computer Science** student at **Toronto Metropolitan University**  
 - 🌱 Passionate about **JavaScript**, **React**, **Node.js**, and **AI chatbots**  
 - 💼 Co-Founder & CMO at **Signalyze** │ Building **MedPass** (EHR solutions)  
-- 🎧 Hip‑hop fiend │ Car enthusiast 🏎️ (Owner of a 2025 Mustang EcoBoost)
+- 🎧 Hip‑hop fiend │ Car enthusiast 🏎️ (Owner of a 2025 Mustang)
 
 ## 🔭 I’m Currently Working On
 - Daily **JavaScript mastery** sessions to become a **JS ninja**  
