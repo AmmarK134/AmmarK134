@@ -21,7 +21,7 @@
 - **Advanced JavaScript** patterns & **TypeScript**  
 - **React** & **Next.js** for building dynamic UIs  
 - **Node.js** backend & **Express** for APIs  
-- **AI/ML** integration: building smarter chatbots
+- **AI/ML** integration: building smarter chatbots and exploring this aspect
 
 ## 💡 GitHub Stats
 
