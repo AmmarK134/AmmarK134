@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 272" width="1200" height="272" role="img" aria-label="Field kit. Languages: TypeScript, JavaScript, Python, Swift, Java, SQL, HTML / CSS. Frameworks: Next.js, React, React Native + Expo, Node.js, FastAPI, Tailwind, Three.js, Shiny. Data and ML: TensorFlow Lite, Google OR-Tools, Supabase, SQLite, SQL Server, Kafka. Tools: Git, Vercel, Unreal Engine 5, Postman, Jira, Power BI.">
+<style>text{font-family:ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace}</style>
+<g fill="none" stroke="#8c959f" stroke-width="1.5"><path d="M24,46 L24,24 L46,24"/><path d="M1176,46 L1176,24 L1154,24"/><path d="M24,226 L24,248 L46,248"/><path d="M1176,226 L1176,248 L1154,248"/></g>
+<text x="40" y="58" font-size="12" fill="#656d76" letter-spacing="3">FIELD KIT // WHAT I CARRY</text>
+<text x="40" y="92" font-size="10" fill="#656d76" letter-spacing="2">LANGUAGES</text>
+<rect x="190" y="74" width="102" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="241.0" y="92" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="76" lengthAdjust="spacingAndGlyphs">TypeScript</text>
+<rect x="302" y="74" width="102" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="353.0" y="92" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="76" lengthAdjust="spacingAndGlyphs">JavaScript</text>
+<rect x="414" y="74" width="71" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="449.5" y="92" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="45" lengthAdjust="spacingAndGlyphs">Python</text>
+<rect x="495" y="74" width="64" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="527.0" y="92" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="38" lengthAdjust="spacingAndGlyphs">Swift</text>
+<rect x="569" y="74" width="56" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="597.0" y="92" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="30" lengthAdjust="spacingAndGlyphs">Java</text>
+<rect x="635" y="74" width="49" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="659.5" y="92" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="23" lengthAdjust="spacingAndGlyphs">SQL</text>
+<rect x="694" y="74" width="102" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="745.0" y="92" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="76" lengthAdjust="spacingAndGlyphs">HTML / CSS</text>
+<line x1="40" y1="110" x2="1160" y2="110" stroke="#8c959f" stroke-width="1" stroke-dasharray="2 5" opacity="0.6"/>
+<text x="40" y="136" font-size="10" fill="#656d76" letter-spacing="2">FRAMEWORKS</text>
+<rect x="190" y="118" width="79" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="229.5" y="136" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="53" lengthAdjust="spacingAndGlyphs">Next.js</text>
+<rect x="279" y="118" width="64" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="311.0" y="136" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="38" lengthAdjust="spacingAndGlyphs">React</text>
+<rect x="353" y="118" width="169" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="437.5" y="136" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="143" lengthAdjust="spacingAndGlyphs">React Native + Expo</text>
+<rect x="532" y="118" width="79" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="571.5" y="136" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="53" lengthAdjust="spacingAndGlyphs">Node.js</text>
+<rect x="621" y="118" width="79" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="660.5" y="136" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="53" lengthAdjust="spacingAndGlyphs">FastAPI</text>
+<rect x="710" y="118" width="86" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="753.0" y="136" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="60" lengthAdjust="spacingAndGlyphs">Tailwind</text>
+<rect x="806" y="118" width="86" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="849.0" y="136" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="60" lengthAdjust="spacingAndGlyphs">Three.js</text>
+<rect x="902" y="118" width="64" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="934.0" y="136" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="38" lengthAdjust="spacingAndGlyphs">Shiny</text>
+<line x1="40" y1="154" x2="1160" y2="154" stroke="#8c959f" stroke-width="1" stroke-dasharray="2 5" opacity="0.6"/>
+<text x="40" y="180" font-size="10" fill="#656d76" letter-spacing="2">DATA &amp; ML</text>
+<rect x="190" y="162" width="139" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="259.5" y="180" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="113" lengthAdjust="spacingAndGlyphs">TensorFlow Lite</text>
+<rect x="339" y="162" width="139" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="408.5" y="180" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="113" lengthAdjust="spacingAndGlyphs">Google OR-Tools</text>
+<rect x="488" y="162" width="86" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="531.0" y="180" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="60" lengthAdjust="spacingAndGlyphs">Supabase</text>
+<rect x="584" y="162" width="71" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="619.5" y="180" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="45" lengthAdjust="spacingAndGlyphs">SQLite</text>
+<rect x="665" y="162" width="102" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="716.0" y="180" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="76" lengthAdjust="spacingAndGlyphs">SQL Server</text>
+<rect x="777" y="162" width="64" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="809.0" y="180" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="38" lengthAdjust="spacingAndGlyphs">Kafka</text>
+<line x1="40" y1="198" x2="1160" y2="198" stroke="#8c959f" stroke-width="1" stroke-dasharray="2 5" opacity="0.6"/>
+<text x="40" y="224" font-size="10" fill="#656d76" letter-spacing="2">TOOLS</text>
+<rect x="190" y="206" width="49" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="214.5" y="224" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="23" lengthAdjust="spacingAndGlyphs">Git</text>
+<rect x="249" y="206" width="71" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="284.5" y="224" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="45" lengthAdjust="spacingAndGlyphs">Vercel</text>
+<rect x="330" y="206" width="139" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="399.5" y="224" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="113" lengthAdjust="spacingAndGlyphs">Unreal Engine 5</text>
+<rect x="479" y="206" width="79" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="518.5" y="224" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="53" lengthAdjust="spacingAndGlyphs">Postman</text>
+<rect x="568" y="206" width="56" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="596.0" y="224" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="30" lengthAdjust="spacingAndGlyphs">Jira</text>
+<rect x="634" y="206" width="86" height="28" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="677.0" y="224" font-size="12.5" fill="#1f2328" text-anchor="middle" textLength="60" lengthAdjust="spacingAndGlyphs">Power BI</text>
+</svg>
