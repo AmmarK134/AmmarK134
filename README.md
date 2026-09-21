@@ -17,6 +17,14 @@ Ammar. Computer Science (co-op) at Toronto Metropolitan University, CTO at <a hr
 
 <img src="assets/divider.svg" width="100%" alt="">
 
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+<source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg">
+<img alt="Field stats: contributions, public repos, stars, streak, languages, and the last 52 weeks of activity" src="assets/stats-light.svg" width="100%">
+</picture>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
 <p align="center"><a href="https://www.linkedin.com/in/ammar-khan-84a31217a/">LinkedIn</a> &nbsp;·&nbsp; <a href="https://portfolio-delta-eight-21.vercel.app">Portfolio</a></p>
 
 <p align="center"><sub><code>LOG KEPT BY HAND · IF YOU'RE READING THIS, YOU FOUND THE SITE</code></sub></p>
