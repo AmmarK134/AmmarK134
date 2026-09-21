@@ -27,6 +27,7 @@ query($login: String!) {
   user(login: $login) {
     followers { totalCount }
     contributionsCollection {
+      restrictedContributionsCount
       contributionCalendar {
         totalContributions
         weeks { contributionDays { contributionCount date } }
@@ -79,7 +80,7 @@ def mock():
              ("CSS", "#663399", 120), ("Java", "#b07219", 90), ("Swift", "#F05138", 60), ("HTML", "#e34c26", 40)]
     return {
         "followers": {"totalCount": 17},
-        "contributionsCollection": {"contributionCalendar": {
+        "contributionsCollection": {"restrictedContributionsCount": 200, "contributionCalendar": {
             "totalContributions": sum(x["contributionCount"] for w in weeks for x in w["contributionDays"]),
             "weeks": weeks}},
         "repositories": {"totalCount": 27, "nodes": [
@@ -107,20 +108,24 @@ def compute(user):
         longest = max(longest, cur)
     repos = user["repositories"]
     stars = sum(n["stargazerCount"] for n in repos["nodes"])
-    bytes_by_lang, colors = {}, {}
+    # every repo counts the same, so one vendored .venv can't swamp the mix
+    share_by_lang, colors = {}, {}
     for n in repos["nodes"]:
-        for e in n["languages"]["edges"]:
+        edges = n["languages"]["edges"]
+        repo_bytes = sum(e["size"] for e in edges) or 1
+        for e in edges:
             name = e["node"]["name"]
-            bytes_by_lang[name] = bytes_by_lang.get(name, 0) + e["size"]
+            share_by_lang[name] = share_by_lang.get(name, 0) + e["size"] / repo_bytes
             colors[name] = e["node"]["color"] or "#8b949e"
-    total = sum(bytes_by_lang.values()) or 1
-    ranked = sorted(bytes_by_lang.items(), key=lambda kv: -kv[1])
+    total = sum(share_by_lang.values()) or 1
+    ranked = sorted(share_by_lang.items(), key=lambda kv: -kv[1])
     top = [(n, b / total, colors[n]) for n, b in ranked[:6]]
     rest = 1 - sum(p for _, p, _ in top)
     if rest > 0.005:
         top.append(("Other", rest, "#8b949e"))
+    private = user["contributionsCollection"].get("restrictedContributionsCount") or 0
     return dict(
-        contributions=cal["totalContributions"], repos=repos["totalCount"], stars=stars,
+        contributions=cal["totalContributions"] + private, repos=repos["totalCount"], stars=stars,
         followers=user["followers"]["totalCount"], streak=streak, longest=longest,
         weeks=cal["weeks"], langs=top,
     )
@@ -132,7 +137,7 @@ def esc(s):
 
 def render(theme, s):
     c = THEMES[theme]
-    W, H = 1200, 240
+    W, H = 1200, 250
     stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d")
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" '
            f'aria-label="Field stats. {s["contributions"]} contributions in the last year, {s["repos"]} public repos, '
@@ -151,10 +156,11 @@ def render(theme, s):
     for x, (val, label) in zip((40, 250, 390, 490), stats):
         out.append(f'<text x="{x}" y="118" font-size="44" font-weight="700" fill="{c["primary"]}" letter-spacing="-1">{val}</text>')
         out.append(f'<text x="{x}" y="140" font-size="10" fill="{c["secondary"]}" letter-spacing="2">{label}</text>')
-    out.append(f'<text x="40" y="168" font-size="10" fill="{c["secondary"]}" letter-spacing="2">LONGEST STREAK {s["longest"]}D · FOLLOWERS {s["followers"]}</text>')
+    out.append(f'<text x="40" y="160" font-size="10" fill="{c["secondary"]}" letter-spacing="2">LONGEST STREAK {s["longest"]}D · FOLLOWERS {s["followers"]}</text>')
 
-    # language bar
-    bx, by, bw, bh = 40, 186, 540, 8
+    # language bar, weighted per repo
+    bx, by, bw, bh = 40, 196, 540, 8
+    out.append(f'<text x="{bx}" y="{by - 10}" font-size="9" fill="{c["secondary"]}" letter-spacing="2">LANGUAGES / EQUAL WEIGHT PER REPO</text>')
     out.append(f'<rect x="{bx}" y="{by}" width="{bw}" height="{bh}" rx="4" fill="{c["track"]}"/>')
     cx = bx
     for i, (name, pct, color) in enumerate(s["langs"]):
