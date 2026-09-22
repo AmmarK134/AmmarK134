@@ -6,7 +6,7 @@
 
 <br>
 
-Ammar. Computer Science (co-op) at Toronto Metropolitan University, CTO at <a href="https://ammark134.github.io/laminar/">Laminar Health</a>. I build things, then go explore abandoned buildings with my friends. Just a person who wants to make it.
+Ammar. Computer Science (co-op) at Toronto Metropolitan University. Just a person who wants to make it.
 
 <img src="assets/divider.svg" width="100%" alt="">
 
